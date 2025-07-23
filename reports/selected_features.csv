@@ -1,21 +1,21 @@
 SelectedFeatures,SelectionReason
-Age,High mutual information score: 0.0217
-EnvironmentSatisfaction,High mutual information score: 0.0033
-JobSatisfaction,High mutual information score: 0.0212
-MonthlyIncome,High mutual information score: 0.0327
-NumCompaniesWorked,High mutual information score: 0.0084
-WorkLifeBalance,High mutual information score: 0.0113
-YearsAtCompany,High mutual information score: 0.0208
-TenureOfEmployee,High mutual information score: 0.0069
-Department_Research & Development,High mutual information score: 0.0035
-Department_Sales,High mutual information score: 0.0230
-EducationField_Marketing,High mutual information score: 0.0009
-EducationField_Medical,High mutual information score: 0.0081
-EducationField_Other,High mutual information score: 0.0000
-EducationField_Technical Degree,High mutual information score: 0.0000
-MaritalStatus_Married,High mutual information score: 0.0000
-MaritalStatus_Single,High mutual information score: 0.0086
-EmployeeType_Temp,High mutual information score: 0.0000
-GradeOfEmployee_B,High mutual information score: 0.0152
-GradeOfEmployee_C,High mutual information score: 0.0072
-GradeOfEmployee_D,High mutual information score: 0.0068
+Age,High mutual information score: 0.0336
+DistanceFromHome,High mutual information score: 0.0055
+Education,High mutual information score: 0.0000
+EnvironmentSatisfaction,High mutual information score: 0.0015
+JobSatisfaction,High mutual information score: 0.0047
+MonthlyIncome,High mutual information score: 0.0318
+NumCompaniesWorked,High mutual information score: 0.0005
+WorkLifeBalance,High mutual information score: 0.0001
+YearsAtCompany,High mutual information score: 0.0301
+TenureOfEmployee,High mutual information score: 0.0078
+LeaveCount_wellnessOfEmployee,High mutual information score: 0.0028
+Department_Sales,High mutual information score: 0.0058
+EducationField_Life Sciences,High mutual information score: 0.0054
+EducationField_Marketing,High mutual information score: 0.0100
+EducationField_Technical Degree,High mutual information score: 0.0008
+MaritalStatus_Married,High mutual information score: 0.0064
+MaritalStatus_Single,High mutual information score: 0.0203
+GradeOfEmployee_B,High mutual information score: 0.0171
+GradeOfEmployee_C,High mutual information score: 0.0000
+GradeOfEmployee_D,High mutual information score: 0.0000
