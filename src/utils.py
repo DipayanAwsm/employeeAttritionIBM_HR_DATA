@@ -1,17 +1,27 @@
+# === File: src/utils.py ===
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.feature_selection import SelectKBest, mutual_info_classif
 from src.config import SELECTED_FEATURES_PATH
 
 def preprocess_data(df, target_col):
     df = df.dropna()
+
+    # Separate target and features
     y = df[target_col]
     X = df.drop(columns=[target_col])
+
+    # Encode categorical variables
     X = pd.get_dummies(X, drop_first=True)
     if y.dtype == 'object':
         le = LabelEncoder()
         y = le.fit_transform(y)
+
+    # Normalize features
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+    X = pd.DataFrame(X_scaled, columns=X.columns)
 
     # Feature Selection: Select top 20 features based on mutual information
     selector = SelectKBest(mutual_info_classif, k=min(20, X.shape[1]))
